@@ -1,0 +1,64 @@
+header {
+    background-color: black;
+    color: white;
+}
+header > div {
+    display: inline-block;
+    padding: 10px;
+    text-align: right;
+}
+
+header:nth-child(1) {
+    padding-left: 75%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    margin: auto;
+    width: 100%;
+    z-index: 0;
+    border-bottom: 1px solid white;
+}
+
+li {
+    display: inline-block;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li:nth-child(1) {
+    font-size: 30px;
+    position: absolute;
+    left: 7%;
+    top: 20%;
+}
+
+#shop-plans {
+    border: 2px solid white;
+    border-radius: 25px;
+    position: absolute;
+    top: 25%;
+    right: 7%;
+}
+
+#top-background {
+    position: relative;
+}
+
+#form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    position: relative;
+    top: 10%;
+}
